@@ -12232,7 +12232,7 @@ exports = module.exports = __webpack_require__(106)();
 
 
 // module
-exports.push([module.i, "body {\n  background-color: powderblue; }\n\n#root {\n  height: 100%;\n  width: 100%; }\n\n.menuBar {\n  border-bottom: 1px solid grey;\n  height: 40px;\n  width: 100%; }\n\n.logo {\n  height: 40px; }\n", ""]);
+exports.push([module.i, "#root {\n  height: 100%;\n  width: 100%; }\n\n.menuBar {\n  border-bottom: 1px solid grey;\n  height: 40px;\n  width: 100%; }\n\n.logo {\n  height: 40px; }\n", ""]);
 
 // exports
 
