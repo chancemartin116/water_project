@@ -12250,7 +12250,11 @@ exports = module.exports = __webpack_require__(106)();
 
 
 // module
+<<<<<<< HEAD
 exports.push([module.i, "body {\n  background-color: powderblue; }\n\n#root {\n  height: 100%;\n  width: 100%; }\n\n.menuBar {\n  display: flex;\n  border-bottom: 1px solid grey;\n  height: 40px;\n  width: 100%; }\n  .menuBar button {\n    border-radius: 6px;\n    width: 100px; }\n\n.logo {\n  height: 80px;\n  margin-bottom: 10px; }\n", ""]);
+=======
+exports.push([module.i, "#root {\n  height: 100%;\n  width: 100%; }\n\n.menuBar {\n  border-bottom: 1px solid grey;\n  height: 40px;\n  width: 100%; }\n\n.logo {\n  height: 40px; }\n", ""]);
+>>>>>>> 608c0ba320b3d288ff57f3440ead58eb511ec85b
 
 // exports
 
