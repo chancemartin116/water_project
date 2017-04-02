@@ -9,7 +9,11 @@ class App extends Component {
     return (
       <div>
         <img className="logo" src="SWIM.png" alt="SWIM"/>
-        <div className="menuBar"></div>
+        <div className="menuBar">
+          <button>Home</button>
+          <button>Features</button>
+          <button>Resources</button>
+        </div>
         <ul>
           <li>
             <a>Water Quality</a>
