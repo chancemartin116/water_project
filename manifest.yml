@@ -1,0 +1,8 @@
+---
+applications:
+- name: water_project
+  memory: 256M
+  buildpack: nodejs_buildpack
+  command:  node server.js
+env:
+    node_env: cloud
