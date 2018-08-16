@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 import classes from './App.scss';
+import { Link } from 'react-router-dom';
 
 class App extends Component {
 
@@ -11,7 +12,7 @@ class App extends Component {
         <img className="logo" src="SWIM.png" alt="SWIM"/>
         <div className="menuBar">
           <button>Home</button>
-          <button>Features</button>
+          <Link to="/features">Features</Link>
           <button>Resources</button>
         </div>
         <ul>
