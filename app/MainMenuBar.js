@@ -2,10 +2,9 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import classes from './App.scss';
 
-export default class MainMenuBar extends Component
-{
-  render()
-  {
+export default class MainMenuBar extends Component {
+  
+  render() {
     return (
       <div className="menuBar">
         <ul>

@@ -7,6 +7,7 @@ var cedarSummary = "The Cedar River is a river in the U.S. state of Washington. 
 var mekongSummary = "The Mekong is a trans-boundary river in Southeast Asia. It is the world's twelfth longest river and the seventh longest in Asia. Its estimated length is 4,350 km (2,703 mi) and it drains an area of 795,000 km2 (307,000 sq mi), discharging 475 km3 (114 cu mi) of water annually."
 
 export default class Features extends Component {
+  
   constructor() {
     super();
     this.state = {riverBasinSummary: ""};

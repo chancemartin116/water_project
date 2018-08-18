@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
 import classes from './App.scss';
 
-export default class MainBulletPoints extends Component 
-{
-  render()
-  {
+export default class MainBulletPoints extends Component {
+  
+  render() {
     return (
       <ul>
         <li>Water Quality</li>

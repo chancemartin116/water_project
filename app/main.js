@@ -11,8 +11,8 @@ render(
     <BrowserRouter>
       <div>
         <Switch>
-        <Route exact path="/" component={App}/>
-        <Route path="/features" component={Features}/>
+          <Route exact path="/" component={App}/>
+          <Route path="/features" component={Features}/>
         </Switch>
       </div>
     </BrowserRouter>
