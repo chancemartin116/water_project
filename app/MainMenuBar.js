@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import classes from './App.scss';
 
 export default class MainMenuBar extends Component
@@ -7,9 +8,17 @@ export default class MainMenuBar extends Component
   {
     return (
       <div className="menuBar">
-        <button>Home</button>
-        <button>Features</button>
-        <button>Resources</button>
+        <ul>
+          <li>
+            <Link to="/">Home</Link>
+          </li>
+          <li>
+            <Link to="/features">Features</Link>
+          </li>
+          <li>
+            <Link to="/resources">Resources</Link>
+          </li>
+        </ul>
       </div>
     )
   }
