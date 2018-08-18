@@ -20,7 +20,7 @@ export default class Features extends Component {
           <div className="selectRiverBasin">
             <h3>Select a river basin: </h3>
             <select onChange={this.handleRiverBasinChange.bind(this)}>
-              <option selected></option>
+              <option defaultValue></option>
               <option>Cedar</option>
               <option>Mekong</option>
             </select>
