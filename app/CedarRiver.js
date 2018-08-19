@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import WaterSourceReport from './WaterSourceReport';
 
 export default class CedarRiver extends Component {
 
@@ -12,11 +13,7 @@ export default class CedarRiver extends Component {
 
   render() {
     return (
-      <div>
-        <p>{this.state.summary}</p>
-        <h3>Water Quality</h3>
-        <p>{this.state.quality}</p>
-      </div>
+      <WaterSourceReport report={this.state}/>
     );
   }
 }
