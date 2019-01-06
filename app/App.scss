@@ -7,18 +7,16 @@
   border-bottom: 1px solid grey;
   height: 40px;
   width: 100%;
-
-  ul {
-    display: flex;
-    width: 25%;
-  }
-
-  li {
-    width: 33%;
+  display: flex;
+  
+  a {
+    text-decoration: none;
+    padding-right: 10px;
   }
 
   button {
     border-radius: 6px;
+    background-color: royalblue;
     width: 100px;
   }
 }

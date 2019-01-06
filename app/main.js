@@ -12,6 +12,7 @@ render(
       <div>
         <Switch>
           <Route exact path="/" component={App}/>
+          <Route path="/home" component={App}/>
           <Route path="/features" component={Features}/>
         </Switch>
       </div>
